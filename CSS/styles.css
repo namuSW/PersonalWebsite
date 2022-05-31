@@ -1,0 +1,172 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-size: 5.625rem;
+  /* 1rem= 1em = 16px = 100% .  562.5% = 5.625em = 5.625rem*/
+  /* static values do not scale with font size setting in a browser,
+  dynamic values do scale. Dynamic values increase accesibility*/
+  width: 25%;
+  margin: 50px auto 0 auto;
+  /* same as margin: 0 auto;, if using auto the element  will be automatically horizontally centered */
+  font-family: 'Sacramento', cursive;
+  /* font-family: Georgia,Times,Times New Roman,serif; -- in this case Georgia is the primary font, if the user doesn't have it installed
+    then the browser will attempt to show Times, then Times New Roman and then, if needed, any serif font available */
+  color: #DBDFFD;
+  line-height: 2;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #5B4B8A;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #5B4B8A;
+}
+
+a {
+  color: #541690;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #DBDFFD;
+}
+
+p {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #40514E;
+  line-height: 2;
+}
+
+hr {
+  width: 4%;
+  border-width: 10px;
+  border-style: dotted none none none;
+  border-color: #EAF6F6;
+  margin: 70px auto 70px auto;
+}
+
+.FacePic {
+  border-radius: 95px;
+}
+
+.BeerPic {
+  border-radius: 40px;
+  width: 15%;
+  height: auto;
+  /* this resizes the image while keeping the Width x Height ratio intact */
+  float: right;
+  margin-left: 30px;
+}
+
+.CarPic {
+  border-radius: 95px;
+  width: 25%;
+  height: auto;
+  /* this resizes the image while keeping the Width x Height ratio intact */
+  float: left;
+  margin-right: 30px;
+}
+
+.top {
+  background-color: #7858A6;
+  padding-top: 25px;
+  position: relative;
+}
+
+.mid {
+  background-color: #DBDFFD;
+  padding: 80px 0 50px 0;
+}
+
+.bot {
+  background-color: #7858A6;
+  padding: 25px 0 0 0;
+}
+
+.footer-link {
+  display: inline-block;
+  margin: 0 10px 0 10px;
+}
+
+.botText {
+  color: #DBDFFD;
+  padding: 25px 0 10px 0;
+  font-size: 0.75rem;
+  margin: 0 0 0 0;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  padding: 5px;
+}
+
+.btn {
+  background: #371B58;
+  background-image: -webkit-linear-gradient(top, #541690, #4C3575);
+  background-image: -moz-linear-gradient(top, #541690, #4C3575);
+  background-image: -ms-linear-gradient(top, #541690, #4C3575);
+  background-image: -o-linear-gradient(top, #541690, #4C3575);
+  background-image: linear-gradient(to bottom, #541690, #4C3575);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  text-shadow: 1px 1px 3px #666666;
+  font-family: Montserrat;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #8f6bb8;
+  background-image: -webkit-linear-gradient(top, #8f6bb8, #930aa8);
+  background-image: -moz-linear-gradient(top, #8f6bb8, #930aa8);
+  background-image: -ms-linear-gradient(top, #8f6bb8, #930aa8);
+  background-image: -o-linear-gradient(top, #8f6bb8, #930aa8);
+  background-image: linear-gradient(to bottom, #8f6bb8, #930aa8);
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.btnText {
+  padding-bottom: 15px;
+  width: 20%;
+  margin: 0 auto 30px auto;
+}
+
+#bottom-cloud {
+  position: relative;
+  right: 120px;
+  bottom: 280px;
+  display: inline-block;
+}
+
+#top-cloud {
+  display: inline-block;
+  position: relative;
+  left: 310px;
+  top: 30px;
+}
+
+#mountain {
+  display: inline-block;
+  position: relative;
+  right: 80px;
+}
+
+#topH2 {
+  color: #DBDFFD;
+}
