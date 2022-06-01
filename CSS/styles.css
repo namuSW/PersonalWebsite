@@ -61,7 +61,7 @@ hr {
 
 .BeerPic {
   border-radius: 40px;
-  width: 15%;
+  width: 12%;
   height: auto;
   /* this resizes the image while keeping the Width x Height ratio intact */
   float: right;
